@@ -33,11 +33,6 @@ policy "restrict-vm-size" {
     enforcement_level = "soft-mandatory"
 }
 
-policy "allowed-providers" {
-    source = "./allowed-providers.sentinel"
-    enforcement_level = "soft-mandatory"
-}
-
 policy "limit-proposed-monthly-cost" {
     source = "./limit-proposed-monthly-cost.sentinel"
     enforcement_level = "advisory"
